@@ -1,0 +1,16 @@
+1. hasher.py
+2. hash_stream.py
+3. hash_stream2.py
+4. singleton.py
+5. borg.py
+6. factory.py
+7. prototype.py
+8. builder.py
+9. adapter.py
+10. adapter_o.py
+11. facade.py
+12. proxy.py
+13. iterator.py
+14. observer.py
+15. observer_async.py
+16. state.py

@@ -1,0 +1,6 @@
+There is not much code in this chapter so listings are a bit different from other chapters.
+
+1. mandelbrot/ - Folder. Listing of mandelbrot packaging including the code and setup.py file
+2. fabfile.py  - The fabric script shown in the chapter.
+3. dependencies.yaml - The ansible playbook shown in the chapter. For it to get to work for you,
+you will need to change the ansible host name.

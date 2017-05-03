@@ -1,0 +1,13 @@
+# Code Listing #3
+---
+- hosts: webkaffe
+  tasks:
+    - name: Pip - Install Python Dependencies
+      pip:
+          name="{{ python_packages_to_install | join(' ') }}"
+
+      vars:
+          python_packages_to_install:
+          - Flask
+          - Bottle
+          - bokeh

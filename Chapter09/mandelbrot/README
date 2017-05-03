@@ -1,0 +1,39 @@
+This is a program which generates the Mandelbrot fractal set of a given width and height
+for a given number of iterations.
+
+It uses Pillow, the Python Imaging Library fork to render the image and save it to a file.
+
+Sample Usage.
+
+
+To see all command line arguments, pass -h to the program.
+
+$ mandelbrot -h
+usage: mandelbrot [-h] [-W WIDTH] [-H HEIGHT] [-n NITER] [-o OUTPUT]
+
+Mandelbrot fractal generator
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -W WIDTH, --width WIDTH
+                        Width of the image
+  -H HEIGHT, --height HEIGHT
+                        Height of the image
+  -n NITER, --niter NITER
+                        Number of iterations
+  -o OUTPUT, --output OUTPUT
+                        Name of output image file
+
+By default, the program generates a mandelbrot fractal image of size 640x480 pixels to a file named mandelbrot.png for 1000 iterations to a file named mandelbrot.png .
+
+
+$ mandelbrot
+Creating mandelbrot set with size 640x480, #iterations=1000
+
+Here is an example of creating an image of size 1280x720 pixels with 5000 iterations and saving it to
+mandelbrot_big.png 
+
+$ mandelbrot -W 1280 -H 720 -n 5000 -o mandelbrot_big.png
+
+The package also includes the 'mandelbrot_mp' program which uses PyMP to improve performance by
+parallel execution on multiple cores in the machine if available. The command line arguments remain the same.

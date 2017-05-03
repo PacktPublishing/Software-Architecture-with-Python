@@ -1,0 +1,24 @@
+1. thumbnail_converter.py
+2. thumbnail_pc.py
+3. thumbnail_limit_lock.py
+4. thumbnail_limit_sema.py
+5. thumbnail_url_controller.py
+6. prime_thread.py
+7. prime_process.py
+8. sort_in_memory.py
+9. sort_counter.py
+10. sort_counter_mp.py
+11. generator_tasks.py
+12. asyncio_tasks.py
+13. async_fetch_url.py
+14. async_fetch_url2.py
+15. concurrent_factorial.py
+16. concurrent_thumbnail.py
+17. prime_joblib.py
+18. mandelbrot.py
+19. mandelbrot_mp.py
+20. mandelbrot_tasks.py
+21. celery_mandelbrot.py
+22. uwsgi.conf
+
+The file requirements.txt contains the pip requirements for software in this chapter.
