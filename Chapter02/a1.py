@@ -25,7 +25,7 @@ def frequency(string, word):
 
     # Words in string
     words = string_l.split()
-    count = w.count(word_l)
+    count = words.count(word_l)
 
     # Return frequency as percentage
     return 100.0*count/len(words)
