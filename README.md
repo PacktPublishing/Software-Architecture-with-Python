@@ -46,3 +46,7 @@ To follow the instructions given in this book, you need to have Python 3 install
 * [Data Mining with Python: Implementing Classification and Regression](https://www.packtpub.com/big-data-and-business-intelligence/data-mining-python-implementing-classification-and-regression?utm_source=github&utm_medium=repository&utm_campaign=9781785885716)
 
 * [Python Text Processing with NLTK 2.0 Cookbook: LITE](https://www.packtpub.com/application-development/python-text-processing-nltk-20-cookbook-lite?utm_source=github&utm_medium=repository&utm_campaign=9781849516389)
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781788624855">https://packt.link/free-ebook/9781788624855 </a> </p>
